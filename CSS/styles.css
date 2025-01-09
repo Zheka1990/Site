@@ -1,7 +1,6 @@
-.greetings{
-    text-align: center;
+span {
+    color: red;
 }
-.text{
-   text-align: center;
-   font-weight: 500; 
+.blue{
+    color:blue ;
 }
