@@ -1,6 +1,29 @@
-span {
-    color: red;
+ul{
+    list-style: none;
+ 
 }
-.blue{
-    color:blue ;
+ 
+.text{
+    
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 100px;
+
+    
+    border: 1px solid blue;
+
+
 }
+.text .item{
+    margin-right: 30px;
+}
+.text .item:last-child{
+    margin-right: 0;
+}
+.parenttext{
+    text-align: center;
+    margin-left: 650px;
+
+
+    border: 1px solid  red;
+} 
