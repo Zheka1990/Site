@@ -25,5 +25,17 @@ ul{
     margin-left: 650px;
 
 
-    border: 1px solid  red;
 } 
+.data{
+    display: flex;
+    justify-content: space-between;
+
+
+    padding-left: 0px;
+
+
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 10;
+    
+}
