@@ -1,16 +1,9 @@
-.time{
-    text-align: center;
-    color: black;
-    
+
+ 
 
 
-font-size: 60px;
-
-padding-top: 30px;
-margin-bottom: 70px;
-
-}
 .day{
+    height: 60px;
     text-align: center;
     font-weight: 500;
     color: black;
@@ -20,7 +13,7 @@ margin-bottom: 70px;
 
 .picture{
     text-align: center;
-    margin-top: 70px;
+   
     
 
 
