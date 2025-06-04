@@ -1,6 +1,4 @@
 
- 
-
 
 .day{
     height: 60px;
@@ -8,12 +6,13 @@
     font-weight: 500;
     color: black;
     background-color: gold;
+    
 }
 
 
 .picture{
     text-align: center;
-   
+    ;
     
 
 
@@ -46,4 +45,15 @@ padding-top: 50PX;
 }
 .item:hover{
     color:red
+}
+
+
+.time {
+    text-align: center;
+    color: black;
+    background-color: gold;
+
+    font-size: 60px;
+
+    padding-top: 30px;
 }
