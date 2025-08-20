@@ -1,18 +1,26 @@
 
 
+.container{
+    width: 1200px;
+    padding: 200px;
+    margon: 0px;
+
 .day{
     height: 60px;
+    
+
     text-align: center;
     font-weight: 500;
     color: black;
     background-color: gold;
+    border: 3px dashed red;
     
 }
 
 
 .picture{
     text-align: center;
-    ;
+    
     
 
 
@@ -30,9 +38,14 @@ ul{list-style: none;}
 
 
 .footer{
+
+
 height: 100px;
-background:teal;
+width: 100px;
 padding-top: 50PX;
+
+
+
 }
 
 .item{
@@ -56,4 +69,12 @@ padding-top: 50PX;
     font-size: 60px;
 
     padding-top: 30px;
+    
+    
+}
+
+
+
+p{
+    font-size: 30px;
 }
