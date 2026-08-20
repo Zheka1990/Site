@@ -3,15 +3,17 @@
 .container{
     width: 1200px;
     padding: 200px;
-    margon: 0px;
+    margin: 0px;
+}
 
 .day{
     height: 60px;
     
-
     text-align: center;
-    font-weight: 500;
-    color: black;
+    font-weight:500px;
+    font-size:50px;
+    
+    color: grey;
     background-color: gold;
     border: 3px dashed red;
     
@@ -34,12 +36,10 @@
     padding-right: 40px;
 
 }
-ul{list-style: none;}
+
 
 
 .footer{
-
-
 height: 100px;
 width: 100px;
 padding-top: 50PX;
@@ -73,8 +73,12 @@ padding-top: 50PX;
     
 }
 
-
-
-p{
-    font-size: 30px;
+p {
+    color:blue;
+}
+.Zheka {
+    display: block;
+}
+span{
+    display: block;
 }
