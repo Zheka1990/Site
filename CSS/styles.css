@@ -1,7 +1,7 @@
 
 
 .container{
-    width: 1200px;
+    width: 1500px;
     padding: 200px;
     margin: 0px;
 }
@@ -81,4 +81,11 @@ p {
 }
 span{
     display: block;
+}
+.box{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
 }
