@@ -100,3 +100,29 @@ span{
 .item-contact:last-child{
     margin-right:0px;
 }
+.button{
+    background-color:pink;
+    width: 500px;
+    height: 100px;
+    transition: background-color 5000ms, color 5000ms;   
+}
+button::before {
+    display: inline-block;
+    content: "";
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+} 
+
+.button:hover {
+    background-color: purple;
+    color:aquamarine;
+   
+}
+
+
+.button:hover:before {
+    transform:translateY(-50px);
+    
+}
