@@ -101,12 +101,16 @@ span{
     margin-right:0px;
 }
 .button{
+    position: relative;
     background-color:pink;
     width: 500px;
     height: 100px;
+    cursor: pointer;
+    font-size: 50px;
+   overflow: hidden;
     transition: background-color 5000ms, color 5000ms;   
 }
-button::before {
+.button::before {
     display: inline-block;
     content: "";
     background-color: red;
@@ -125,4 +129,22 @@ button::before {
 .button:hover:before {
     transform:translateY(-50px);
     
+}
+.button:after {
+    position: absolute;
+    top: 50%;
+    left: 82px;
+    display: inline-block;
+    content: "";
+    background-color:green;
+    width: 20px;
+    height: 20px;   
+    transition: background-color 5000ms, color 5000ms;
+    transform:translateY(calc(-50% + 100px));
+}
+
+.button:hover:after {
+    background-color: yellow;
+    transform:translateY(-50%);
+
 }
