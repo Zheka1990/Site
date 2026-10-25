@@ -108,7 +108,8 @@ span{
     cursor: pointer;
     font-size: 50px;
    overflow: hidden;
-    transition: background-color 5000ms, color 5000ms;   
+    transition: background-color 5000ms, color 5000ms; 
+    margin-bottom:100px;  
 }
 .button::before {
     display: inline-block;

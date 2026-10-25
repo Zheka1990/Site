@@ -44,6 +44,30 @@
     </ul>
     <div class="box"></div>
     <button class="button">Нажми здесь</button>
+
+    <form class="js-speaker-form">
+        <label for="name"> Имя </label>
+        <input type="text" id="name" name="name" placeholder="Введите текст">
+        <label for="tel"> Телефон </label>
+        <input type="tel" id="tel" name="tel" placeholder="Введите текст">
+        <label for="email"> Email </label>
+        <input type="email" id="email" name="email" placeholder="Введите текст">
+        <button class="submit"> Отправить</button>
+    </form>
+
+    <script>
+        (() => {
+            document
+                .querySelector('.js-speaker-form')
+                .addEventListener('submit', (e) => {
+                    e.preventDefault();
+
+                    new FormData(e.currentTarget).forEach((value, name) => {
+                        console.log(`${name}: ${value}`);
+                    });
+                });
+        })();
+    </script>
 </body>
 
 </html>
