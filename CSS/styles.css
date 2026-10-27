@@ -149,3 +149,7 @@ span{
     transform:translateY(-50%);
 
 }
+textarea{
+ display: block;  
+ resize: none;
+}
