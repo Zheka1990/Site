@@ -155,14 +155,13 @@ textarea{
 }
 
 .form {
-    width: 1000px;
+    width: 500px;
     outline: 1px solid black;
     margin-left:auto;
     margin-right:auto;
     padding: 20px;
 }
 .form-field {
-    outline: 1px solid tomato;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
@@ -182,16 +181,47 @@ textarea{
 }
 
 .group{
-    
+    margin-bottom: 20px;
 }
 
 .group-title{
     margin-top:0px;
     Font-weight: 100;
 }
-.skills-options{
+.skills-options, 
+.experience-options{
     padding:0px;
     margin:0px;
     list-style:none;
     margin-bottom:10px;
+}
+
+/* .skills-options input[type='checkbox']  {
+  width: 40px;
+  height: 40px;
+} */
+
+.skills-options li {
+    display: flex;
+    align-items: center;
+}
+
+.skills-options label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.form-field.policy{
+  flex-direction: row;
+  align-items: baseline;
+  gap: 8px
+}
+
+.form .date {
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.coment{
+    padding:8px;
 }

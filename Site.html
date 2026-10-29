@@ -59,7 +59,7 @@
 
         <div class="form-field">
             <label for="email"> Email </label>
-            <input type="email" id="email" name="email" placeholder="123@gmail">
+            <input type="email" id="email" name="email" placeholder="123@gmail">>
         </div>
 
         <div role="group" class="group" aria-labelledby="skills">
@@ -82,26 +82,45 @@
         </div>
 
 
-        <div role="group" aria-labelledby="experience">
-            <input type="radio" id="Junior" value="jun" name="experience">
-            <label for="Junior">Junior</label>
-            <input type="radio" id="Middle" value="middle" name="experience">
-            <label for="Middle">Middle</label>
-            <input type="radio" id="Senior" value="senior" name="experience">
-            <label for="Senior">Senior</label>
-        </div>
-        <label for="datetime"> Дата и время </label>
-        <input type="datetime-local" name="datetime" id="datetime">
-        <br />
-        <label for="file"> Загрузить PDF </label>
-        <input type="file" name="pdf" id="file">
-        <br />
+        <div role="group" aria-labelledby="experience" class="group">
 
-        <label for="coment"> оставьте коментарий </label>
-        <textarea name="coment" id="coment" rows="10" placeholder="Оставить комментарий"></textarea>
-        <br>
-        <input type="checkbox" name="policy" id="policy">
-        <label for="policy"> Я согласен с условиями </label>
+            <h2 class="group-title">Уровень вашей экспертизы</h2>
+            <ul class="experience-options">
+                <li>
+                    <input type="radio" id="Junior" value="jun" name="experience">
+                    <label for="Junior">Junior</label>
+                </li>
+                <li>
+                    <input type="radio" id="Middle" value="middle" name="experience">
+                    <label for="Middle">Middle</label>
+                </li>
+                <li> <input type="radio" id="Senior" value="senior" name="experience">
+                    <label for="Senior">Senior</label>
+                </li>
+            </ul>
+        </div>
+
+        <div class="form-field">
+            <label for="datetime"> Дата и время </label>
+            <input type="datetime-local" name="datetime" id="datetime" class="date">
+        </div>
+
+        <div class="form-field">
+            <label for="file"> Загрузить PDF </label>
+            <input type="file" name="pdf" id="file">
+        </div>
+
+
+        <div class="form-field ">
+            <label for="coment"> Добавьте коментарий </label>
+            <textarea name="coment" id="coment" rows="10" placeholder="Оставить комментарий" class=""></textarea>
+        </div>
+
+        <div class="form-field policy">
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy"> Я согласен с условиями </label>
+        </div>
+
         <br />
         <button class="submit"> Отправить</button>
     </form>
